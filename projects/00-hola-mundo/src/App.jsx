@@ -9,34 +9,38 @@ export function App(){
         <section className='App'>
 
             <TwitterFollowCard 
-            formatUserName={format} 
-            isFollowing 
+            formatUserName={format}  
             userName="midudev" 
-            name = "Miguel Ángel Durán"/>
+            name = "Miguel Ángel Durán"
+            initialIsFollowing
+            />
+        
 
             <TwitterFollowCard 
             formatUserName={format} 
-            isFollowing 
             userName="axeelbl" 
-            name = "Axel Berral López"/>
+            name = "Axel Berral López"
+            initialIsFollowing = {false}/>
+            
 
             <TwitterFollowCard 
             formatUserName={format} 
-            isFollowing 
             userName="Ikeerwp" 
-            name = "Iker Infantes Calaveras"/>
+            name = "Iker Infantes Calaveras"
+            initialIsFollowing = {false}/>
+            
 
             <TwitterFollowCard 
             formatUserName={format} 
-            isFollowing 
             userName="Ferranicu" 
-            name = "Ferran Sidera"/>
+            name = "Ferran Sidera"
+            initialIsFollowing = {false}/>
 
             <TwitterFollowCard 
             formatUserName={format} 
-            isFollowing 
             userName="DanGxG" 
-            name = "Daniel Grao"/>
+            name = "Daniel Grao"
+            initialIsFollowing = {false}/>
 
         </section>
         
